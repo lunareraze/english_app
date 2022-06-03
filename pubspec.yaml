@@ -1,0 +1,37 @@
+name: englishapp
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smooth_page_indicator: ^1.0.0+2
+  cupertino_icons: ^1.0.2
+  flip_card: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fruit_image/
+    - assets/vegetable_image/
+    - assets/animal_image/
+    - assets/flower_image/
+    - assets/transport_image/
+    - assets/bakery_image/
+    - assets/bodyparts_image/
+    - assets/colours_image/
+    - assets/background_bottom/
+    - assets/school_image/
+    - assets/alphabet_image/
